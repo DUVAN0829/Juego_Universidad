@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SRC/CSS/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+
+    <title>Alto</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="titulo">- Nivel: Medio -</h1>
+    </header>
+
+    <main>
+        <section class="elementos-aleatorio">
+            <div class="elementos-aleatorio__medio elementos-aleatorio__medio--contenido" id="aleatorio1">
+
+            </div>
+            <div class="elementos-aleatorio__imagen-m" id="0" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+            </div>
+            <div class="elementos-aleatorio__medio elementos-aleatorio__medio--contenido" id="aleatorio2">
+
+            </div>
+        </section>
+
+        <section class="imagenes">
+            <div class="imagen__mayor">
+                <img src="SRC/IMG/right-arrow_271228.png" draggable="true" ondragstart="drag(event)" id="mayor">
+            </div>
+
+            <div class="imagen__igual">
+                <img src="SRC/IMG/grip-lines_10506576.png" draggable="true" ondragstart="drag(event)" id="igual">
+            </div>
+
+            <div class="imagen__menor">
+                <img src="SRC/IMG/left-arrow_271220.png" draggable="true" ondragstart="drag(event)" id="menor">
+            </div>
+        </section>
+
+        <section>
+            <a href="medio.html">
+                <input class="boton" type="button" type="submit" value="Generar">
+            </a>
+        </section>
+    </main>
+    </main>
+
+    <script src="SRC/JS/medio.js"></script>
+</body>
+
+</html>
