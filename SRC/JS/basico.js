@@ -77,12 +77,12 @@ function drop(ev) {
     if (arreglo[0] == "mayor" && valor1 > valor2 || arreglo[0] == "menor" && valor1 < valor2 || arreglo[0] == "igual" && valor1 == valor2) {
         contador++;
         document.querySelector("h1").innerHTML = "Correcto " + contador + " punto";
-        if (contadorProgreso > 9) {
+        if (contadorProgreso > 10) {
             document.querySelector("h1").innerHTML = `obtuviste ${contador} puntos`;
         }
     } else {
         document.querySelector("h1").innerHTML = "Mal 0 puntos";
-        if (contadorProgreso > 9) {
+        if (contadorProgreso > 10) {
             document.querySelector("h1").innerHTML = `obtuviste ${contador} puntos`;
         }
     }

@@ -252,11 +252,23 @@ img {
     margin: 0 auto;
 }
 
-.progreso-barra {
+.progreso-barra{
     margin: 2rem 0;
     width: 0;
     height: 3rem;
     text-align: center;
     padding: 0.6rem;
+    font-family: var(--fuente-titulo);
+}
+
+.progreso-barra-b{
     background-color: var(--azul);
+}
+
+.progreso-barra-m{
+    background-color: var(--morado);
+}
+
+.progreso-barra-a{
+    background-color: var(--rosa);
 }
